@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.css";
-import CardTitle from "../src/CardComponents/CardTitle";
-// import CardData from "../src/CardComponents/CardData";
+import CardTitle from "./components/CardTitle";
+import CardData from "../src/components/CardData";
 
 function App() {
   return (
     <div className="App">
-    
       <CardTitle />
-      {/* <CardData /> */}
+      <CardData />
     </div>
   );
 }
