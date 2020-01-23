@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
+import CardTitle from "../src/CardComponents/CardTitle";
+// import CardData from "../src/CardComponents/CardData";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        
-        <h1>Nasa Photo of the Day</h1>
-      </p>
+    
+      <CardTitle />
+      {/* <CardData /> */}
     </div>
   );
 }
