@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Title = styled.p`
-            font-size: 1.25em;
+            font-size: 2em;
             padding: 0 15%;
-            color: darkgrey;
+            color: purple;
             font-weight: bold;
             `;
 
